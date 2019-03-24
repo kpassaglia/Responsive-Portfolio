@@ -1,0 +1,150 @@
+* {box-sizing: border-box}
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container{ 
+    width: 960px;
+    margin: 0 auto;
+}
+
+  header {
+    padding: 0px;
+    margin-bottom: 0px;
+    color: #333;
+    background-color: #ffffff;
+    border-bottom: 1px solid #666666;
+  }
+  .container.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  h1{
+  color: #fff;
+  background-color: #4aaaa5; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 30px;
+  }
+
+  a{
+      padding: 5px;
+      color: #777777;
+      text-decoration-line: none;
+  }
+
+  nav{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    padding:30px;
+    margin-top: 10px;
+  }
+  
+  h2{
+    text-align:left;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 27px;
+    margin: 30px;
+    background: #fff;
+    border-bottom: 2px solid #666666;
+  }
+  
+  #main {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    color: #777777;
+    line-height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border: 1px solid #666666;
+    margin-bottom: 200px;
+  }
+  
+
+  p{
+      margin-right: 30px;
+      margin-left: 30px;
+  }
+
+  
+  .img1{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 380px;
+    height: 240px;
+} 
+img{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 320px;
+    height: 240px;
+}
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    width: 100%;   
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    }
+  
+    form{
+        width: 900px;
+        padding: 30px;
+        padding-top:0;
+    }
+    .input{
+        width: 900px;
+        height: 30px;
+        border: 1px solid #777777;
+    }
+    textarea{
+       height:150px; 
+        width: 900px;
+       border: 1px solid #777777;
+    }
+    .submit{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding:7px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+     background: #4aaaa5;  
+     border: 2px solid #4aaaa5 ;
+    }
+
+    .v2{
+        margin-bottom: 0;
+    }
+    .con {
+      float: left;
+      position: relative;
+      text-align: center;
+      color: white;
+      width: 320px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #4aaaa5;
+      width: 260px;
+    }
